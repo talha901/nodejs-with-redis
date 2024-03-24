@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: us-west-2
-  ECR_REPOSITORY: demo-unique-16-app	
+  ECR_REPOSITORY: demo-unique-16	
   ECS_SERVICE: MY_ECS_SERVICE                                              # set this to your Amazon ECS service name
   ECS_CLUSTER: demo-init-stack-FargateCluster-bOwvaYaHR7C6                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
